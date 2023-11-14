@@ -123,8 +123,8 @@ function FormularioTema() {
                 />
             </div>
             <button
-                className="rounded text-slate-100 bg-indigo-400 
-            hover:bg-indigo-800 w-1/2 py-2 mx-auto flex justify-center" type="submit">
+                className="rounded text-slate-100 bg-blue-950
+            hover:bg-blue-800 w-1/2 py-2 mx-auto flex justify-center" type="submit">
 
                 {isLoading ?
                     <RotatingLines

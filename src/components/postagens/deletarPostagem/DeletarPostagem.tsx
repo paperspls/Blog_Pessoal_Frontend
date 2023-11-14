@@ -79,7 +79,7 @@ function DeletarPostagem() {
         </p>
 
         <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
-            <header className='py-2 px-6 bg-indigo-600 text-white font-bold text-2xl'>
+            <header className='py-2 px-6 bg-blue-950 text-white font-bold text-2xl'>
                 Postagem
             </header>
 
@@ -89,14 +89,8 @@ function DeletarPostagem() {
             </div>
             <div className="flex">
                 <button
-                    className='text-slate-100 bg-red-400 hover:bg-red-600 w-full py-2'
-                    onClick={retornar}>
-                    Não
-                </button>
-
-                <button
-                    className='w-full text-slate-100 bg-indigo-400 
-                hover:bg-indigo-600 flex items-center justify-center'
+                    className='w-full text-slate-100 bg-blue-950 
+                hover:bg-blue-800 flex items-center justify-center'
                     onClick={deletarPostagem}>
 
                     {isLoading ?
@@ -109,6 +103,11 @@ function DeletarPostagem() {
                         /> :
                         <span>Sim</span>
                     }
+                </button>
+                <button
+                    className='text-slate-100 bg-red-400 hover:bg-red-600 w-full py-2'
+                    onClick={retornar}>
+                    Não
                 </button>
             </div>
         </div>
